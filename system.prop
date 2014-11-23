@@ -2,6 +2,12 @@
 # system.prop for i9500
 #
 
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
 ro.sf.lcd_density=480
 ro.zygote.disable_gl_preload=1
 debug.sf.swaprect=0

@@ -65,8 +65,7 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd \
- $(LOCAL_PATH)/bluetooth/libbt_vndcfg.txt:system/etc/bluetooth/bt_vendor.conf
+    $(LOCAL_PATH)/bluetooth/bcm4335_prepatch.hcd:system/vendor/firmware/bcm4335_prepatch.hcd
 
 # Camera
 PRODUCT_PACKAGES += \
